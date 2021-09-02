@@ -1,0 +1,358 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1170px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* =======================HEADER=========================== */
+
+#header {
+    background: #23282d;
+    padding-top: 28px;
+    padding-bottom: 9px;
+    margin-bottom: 34px;
+}
+
+form#search input {
+    width: 248px;
+    background: #131619;
+    color: #909090;
+    border: none;
+    outline: none;
+    padding: 9px 42px 9px 12px;
+}
+
+form#search {
+    position: relative;
+}
+
+form#search button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    outline: none;
+    background: #131619;
+    color: #909090;
+    padding: 9px 15px;
+}
+
+form#search ::placeholder {
+    color: #909090;
+}
+
+nav {
+    margin-top: 7px;
+    display: flex;
+    flex: 100%;
+    border-right: 10px solid #ff2d2d;
+}
+
+ul#main-menu li a {
+    display: block;
+    color: #eeeeee;
+    padding: 6px 20px;
+    margin: 0px;
+}
+
+ul#main-menu li:first-child a {
+    padding-left: 0px;
+}
+
+ul#main-menu li a:hover,
+ul#main-menu li a.active {
+    color: #4babe3;
+    text-decoration: none;
+}
+
+
+/* ===========================FEATURE====================== */
+
+#wp-feature-post {
+    margin-bottom: 20px;
+}
+
+.box .box-head h3 {
+    color: #eeeeee;
+    background: #23282d;
+    font-weight: 600;
+    padding: 1px 15px;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.box.feature-post .box-body {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+}
+
+.box .box-body {
+    margin-top: 20px;
+}
+
+ul.list-feature-post li {
+    flex: 360px 0 1;
+}
+
+ul.list-feature-post li .post-thumb {
+    display: block;
+    overflow: hidden;
+}
+
+ul.list-feature-post li .post-thumb:hover img {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+ul.list-feature-post li a.post-title:hover {
+    color: #4db2ec;
+    transition: all 0.5s;
+}
+
+ul.list-feature-post li a.post-title {
+    color: #5f5f5f;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+/* =============================== WP-CONTENT ==================== */
+
+#wp-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content {
+    flex: 765;
+    padding-right: 15px;
+}
+
+#sidebar {
+    flex: 375;
+    padding-left: 15px;
+}
+
+.box.new-post .box-head h3 {
+    background: #4db2ec;
+}
+
+.box.new-post .box-head {
+    border-bottom: 2px solid #4db2ec;
+}
+
+ul.list-post li {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+ul.list-post li .post-thumb {
+    display: block;
+    padding-right: 15px;
+    flex: 280;
+}
+
+ul.list-post li .more-infor {
+    padding-left: 15px;
+}
+
+ul.list-post li .more-infor .post-title {
+    display: block;
+    color: #111111;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul.list-post li:hover .more-infor a.post-title {
+    color: #4db2ec;
+    transition: all 0.5s;
+}
+
+ul.list-post li .more-infor .post-publish {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 0px;
+}
+
+ul.list-post li .more-infor .post-author {
+    color: #111111;
+    text-decoration: none;
+}
+
+ul.list-post li .more-infor .post-date {
+    color: #aaa;
+}
+
+ul.list-post li .more-infor .post-excerpt {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+
+/* ====SIDEBAR===== */
+
+#sidebar .ads img {
+    padding-bottom: 40px;
+}
+
+#sidebar .box .box-head h3 {
+    background: #ff2d2d;
+    color: #fcfcfc;
+}
+
+#sidebar .box .box-head {
+    border-bottom: 1px solid #ff2d2d;
+}
+
+#sidebar .box .box-body ul.list-topic li {
+    position: relative;
+}
+
+#sidebar .box .box-body ul.list-topic li a {
+    display: block;
+    color: #212121;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 0px;
+}
+
+#sidebar .box .box-body ul.list-topic li:hover a {
+    color: #ff4545;
+    transition: all 0.2s;
+}
+
+#sidebar .box .box-body ul.list-topic .num-post {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 6px 12px 0px;
+}
+
+
+/* ============================FOOTER======================= */
+
+#footer {
+    background: #2e2f30;
+    padding-top: 52px;
+    padding-bottom: 75px;
+    color: #f6f6f6;
+}
+
+#footer .container {
+    flex-wrap: nowrap;
+}
+
+#footer .box .box-head h3 {
+    background: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+
+#footer .box.logo-footer {
+    flex: 280;
+    padding-right: 15px;
+}
+
+#footer .box.about-us {
+    flex: 680;
+    padding-left: 15px;
+    padding-right: 180px;
+}
+
+#footer .box.follow-us {
+    flex: 180;
+    padding-right: 15px;
+}
+
+#footer .box.about-us a {
+    color: #4db2ec;
+}
+
+#footer .box.logo-footer .box-head {
+    visibility: hidden;
+}
+
+#footer .box .box-body {
+    padding-top: 40px;
+    margin: 0px;
+}
+
+#footer .box .box-body p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+ul.list-social li {
+    margin-left: 15px;
+}
+
+ul.list-social li:first-child {
+    margin-left: 0px;
+}
+
+ul.list-social li a {
+    background: #434648;
+    padding: 5px 12px;
+    color: #eeeeee;
+    display: block;
+}
+
+ul.list-social li:hover a {
+    color: #47718a;
+}
+
+
+/* ========================COPYRIGHT================= */
+
+#wp-copyright {
+    background: #222527;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+#wp-copyright .copyright {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+#wp-copyright ul#footer-menu li a {
+    font-size: 14px;
+    color: #f3f3f3;
+    display: block;
+    padding: 0px 13px;
+    text-decoration: none;
+}
+
+#wp-copyright ul#footer-menu li:hover a {
+    color: #4db2ec;
+}
+
+#wp-copyright ul#footer-menu li:last-child {
+    padding-right: 0px;
+}
